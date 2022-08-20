@@ -188,7 +188,7 @@ header{
 
 .main-nav li:hover a:link,
 .main-nav li:hover a:visited{
-    background: rgba(100, 58, 121, 1);
+   color: rgb(58, 109, 121);
 }
 .main-nav li i{
     position: absolute;
@@ -197,12 +197,10 @@ header{
    
 }
 #theme_switch {
-
     color: black;
 }
-.active{
-    background: rgba(100, 58, 121, 1);
-    border-radius: .3rem;
+..main-nav .active2{
+    color:rgb(68, 173, 173); 
 }
 
 .logo{
