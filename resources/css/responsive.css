@@ -94,6 +94,63 @@
         margin-top: 2.2rem;
         margin-right: 2.5rem;
     }
+    #home .main-nav{
+        width: 100%;
+
+    }
+   
+    #home .gif2{
+        width: 30%;
+        margin-left: 40rem;
+
+    }
+    #home .hero-test-box{
+        top:15rem;
+        left: 6rem;
+        display: grid;
+        grid-template-columns: 1fr ;
+          
+    }
+    #home h1{
+        width: 300px;
+        font-size: 2rem;
+        color: rgb(59, 58, 58);
+        
+    }
+    #home .hero-test-box hr{
+        width: 14.8rem;
+        height: .2rem; 
+        margin-left: rem;
+    }
+    #home .element{
+        margin-top: 20rem;
+    }
+    #home .hero-test-box .btn-work{
+        margin-top: 5rem;
+        background:linear-gradient(rgb(13, 67, 71), rgb(40, 181, 185));
+        padding: .4rem .5rem;
+        width: 17rem;
+        text-align: center;
+       
+    }
+    
+   
+    
+}
+@media only screen and (max-width:560px){
+  #home .gif2{
+    display: none;
+  }
+  #home .element{
+    margin-top: 40rem;
+    padding-right:100px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 2rem;
+  }
+  #home .element .e3{
+    margin-left: -3rem;
+  }
 }
 
 @media only screen and (max-width:480px){
@@ -118,53 +175,53 @@
         margin-top: 2rem;
         margin-right: 2rem;
     }
-    #home .main-nav{
-        width: 100%;
-
-    }
-    #home  .gif{
+    
+    #home  .gif2{
         display: none;
     }
-    .hero-test-box{
-        top:20rem;
+    #home .hero-test-box{
+        
+        top:15rem;
         left: 6rem;
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
           
     }
-    .hero-test-box h1{
-        width: 300px;
+    #home h1{
+        text-align: justify;
+        width: 35.5rem;
         font-size: 2rem;
         color: rgb(59, 58, 58);
-        text-align: ;
+        
     }
-    .hero-test-box hr{
+    #home .hero-test-box hr{
         width: 14.8rem;
         height: .2rem; 
         margin-left: rem;
     }
     
-    .hero-test-box .btn-work{
-        margin-top: 8rem;
+    #home .hero-test-box .btn-work{
+        margin-top: 5rem;
         background:linear-gradient(rgb(13, 67, 71), rgb(40, 181, 185));
-        padding: .2rem .5rem;
-        width: 30rem;
+        padding: .4rem .5rem;
+        width: 17rem;
         text-align: center;
        
     }
     
    
-    .element{
+    #home .element{
         float: left;
         position: absolute;
-        margin-top: 45rem; 
+        margin-top: 33rem; 
         font-size: 2.5rem;
         display: grid;
         grid-template-columns: 2fr 2fr;
         grid-gap: 3.5rem;
         justify-content: center;
         text-align: center;
-        margin-right: 5rem;
+        margin-right: 4rem;
+        margin-left: 0%;
         
        
     }
