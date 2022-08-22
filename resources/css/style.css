@@ -300,12 +300,11 @@ ul li{
     color:rgb(68, 173, 173);
 }
 
-.hero-test-box{
+#home .hero-test-box{
     float: left; 
     position: absolute;
-    top:25rem;
-    left: 42rem;
-    /*transform: translate(-50%, -20%);*/
+    
+    
     text-align: justify;
     width: 20%;
       

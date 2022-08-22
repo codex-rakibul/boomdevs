@@ -1,7 +1,7 @@
 @media only screen and (max-width:1200px){
     .row{
         margin: 0 15px; 
-        
+     }
         .hero-text-box{
             width: 50%;
         }
@@ -12,17 +12,12 @@
     .service-section, .team-section, .skill-section, .testmonial, .contact-section{
         height: auto;
     }
-    .row .main-nav{
-        
-    }
-    
-}
 
 @media only screen and (max-width:1024px){
     .service-section, .team-section, .skill-section, .testmonial, .contact-section{
         height: auto;
     }
-    .hero-text-box{
+    #home .hero-text-box{
         width: 80%;
     }
     .main-nav{
@@ -45,6 +40,7 @@
         text-align: center;
     }
     
+    
     .contact-section form{
         width: 100%;
         margin-left: 0;
@@ -55,6 +51,45 @@
     }
     .mobile-menu span{
         margin-top: 2rem;
+    }
+    #home .main-nav{
+        width: 100%;
+
+    }
+   
+    #home .gif2{
+        margin-top: 1rem;
+        width: 45%;
+        margin-left: 60rem;
+
+    }
+    #home .hero-test-box{
+        top:15rem;
+        left: 6rem;
+        display: grid;
+        grid-template-columns: 1fr ;
+          
+    }
+    #home h1{
+        width: 300px;
+        font-size: 2rem;
+        color: rgb(59, 58, 58);
+        
+    }
+    #home .hero-test-box hr{
+        width: 14.8rem;
+        height: .2rem; 
+        margin-left: rem;
+    }
+    #home .element{
+        margin-top: 4rem;
+    }
+    #home .hero-test-box .btn-work{
+        margin-top: 10rem;
+        padding: .4rem .5rem;
+        width: 17rem;
+        text-align: center;
+       
     }
 }
 
@@ -75,6 +110,45 @@
     }
     .mobile-menu span{
         margin-top: 2rem;
+    }
+    #home .main-nav{
+        width: 100%;
+
+    }
+   
+    #home .gif2{
+        margin-top: 1rem;
+        width: 45%;
+        margin-left: 40rem;
+
+    }
+    #home .hero-test-box{
+        top:15rem;
+        left: 6rem;
+        display: grid;
+        grid-template-columns: 1fr ;
+          
+    }
+    #home h1{
+        width: 300px;
+        font-size: 2rem;
+        color: rgb(59, 58, 58);
+        
+    }
+    #home .hero-test-box hr{
+        width: 14.8rem;
+        height: .2rem; 
+        margin-left: rem;
+    }
+    #home .element{
+        margin-top: 4rem;
+    }
+    #home .hero-test-box .btn-work{
+        margin-top: 10rem;
+        padding: .4rem .5rem;
+        width: 17rem;
+        text-align: center;
+       
     }
 }
 
@@ -100,8 +174,9 @@
     }
    
     #home .gif2{
-        width: 30%;
-        margin-left: 40rem;
+        width: 35%;
+        margin-top: 5rem;
+        margin-left: 35rem;
 
     }
     #home .hero-test-box{
@@ -123,7 +198,7 @@
         margin-left: rem;
     }
     #home .element{
-        margin-top: 20rem;
+        margin-top: 15rem;
     }
     #home .hero-test-box .btn-work{
         margin-top: 5rem;
