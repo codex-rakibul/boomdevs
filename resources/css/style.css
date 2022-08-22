@@ -203,15 +203,15 @@ header{
     color:rgb(68, 173, 173); 
 }
 
-.logo{
-    
+#home .logo{
+    visibility: visible;
     height: 8rem;
     width: auto;
     margin-top:-.1rem;
     float: left;
 
 }
- .logo-title{
+#home .logo-title{
     float: left;
     margin-top: 3rem;
     margin-left: -25px;
@@ -219,20 +219,23 @@ header{
     font-weight: bolder;
     color: rgb(3, 51, 83);
 }
+#home .logo2{
+    visibility: hidden;
+}
 /* list customize */
 ul li{
     list-style: none;
     
 }
 /* main nav design */
-.main-nav{
+/*.main-nav{
     
     float: left;
     margin-top: 3rem;
     margin-left: 5rem;
     
  
-}
+}*/
 
 .login a:link,
 .login a:visited{
@@ -307,15 +310,18 @@ ul li{
     width: 20%;
       
 }
-.hero-test-box h1{
+#home .hero-test-box h1{
     
     font-size: 24px;
     color: rgb(59, 58, 58);
 }
-.spn{
-    color:rgb(68, 173, 173); 
+#home .hero-test-box .spn{
+    font-weight: bolder;
+    background: -webkit-linear-gradient(rgb(47, 163, 192), rgb(48, 194, 219));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.btn-work{
+#home .hero-test-box .btn-work{
     background: #2b9ecc;
     color: #fff;
     padding: .5rem 1rem;
@@ -349,12 +355,12 @@ ul li{
     
 }
 .hr hr{
-    background: rgb(68, 173, 173);
+    background: rgb(123, 225, 238);
     width: 50px;
     height: 3px;
 
 }
-.pra2{
+#home .hero-test-box .pra2{
     font-size: 14px;
     margin-top: 12px;
     color: rgb(109, 106, 106);
@@ -496,7 +502,7 @@ ul li{
 /*Mobile Menu*/
 
 .mobile-menu span{
-    color: #fff;
+    color: rgb(21, 135, 155);
     font-size: 4rem;
     float: right;
 /*    margin-top: 2rem;*/

@@ -118,5 +118,72 @@
         margin-top: 2rem;
         margin-right: 2rem;
     }
+    #home .main-nav{
+        width: 100%;
+
+    }
+    #home  .gif{
+        display: none;
+    }
+    .hero-test-box{
+        top:20rem;
+        left: 6rem;
+        display: grid;
+        grid-template-columns: 1fr ;
+          
+    }
+    .hero-test-box h1{
+        width: 300px;
+        font-size: 2rem;
+        color: rgb(59, 58, 58);
+        text-align: ;
+    }
+    .hero-test-box hr{
+        width: 14.8rem;
+        height: .2rem; 
+        margin-left: rem;
+    }
+    
+    .hero-test-box .btn-work{
+        margin-top: 8rem;
+        background:linear-gradient(rgb(13, 67, 71), rgb(40, 181, 185));
+        padding: .2rem .5rem;
+        width: 30rem;
+        text-align: center;
+       
+    }
+    
+   
+    .element{
+        float: left;
+        position: absolute;
+        margin-top: 45rem; 
+        font-size: 2.5rem;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-gap: 3.5rem;
+        justify-content: center;
+        text-align: center;
+        margin-right: 5rem;
+        
+       
+    }
+    .element .e1, .e2, .e3, .e4{
+       position: relative;
+       margin-left: 0%;
+    }
+    .element .e3 i{
+        margin-left:2rem;
+    }
+    
+    .element p{
+        margin-left: 0%;
+        align-items: center;
+    }
+    .mobile-menu span{
+        margin-top: 2.5rem;
+        font-size: 3rem;
+    }
+   
     
 }

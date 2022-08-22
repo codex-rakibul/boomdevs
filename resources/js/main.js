@@ -43,10 +43,13 @@ let isLight = true;
 function change_theme ()
 {
     const cssFile = document.getElementById("light");
+    const cssFile2 = document.getElementById("light2");
     if(isLight){
+        cssFile2.innerHTML="DARK MODE OFF";
         cssFile.setAttribute("href", "resources/css/dark.css");
         isLight = false;
     }else{
+        cssFile2.innerHTML="DARK MODE ON";
         cssFile.setAttribute("href", "resources/css/style.css");
         isLight = true;
     }
