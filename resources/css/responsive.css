@@ -143,9 +143,7 @@
   #home .element{
     margin-top: 40rem;
     padding-right:100px;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-gap: 2rem;
+   
   }
   #home .element .e3{
     margin-left: -3rem;
@@ -205,7 +203,7 @@
     }
     
     #home .hero-test-box .btn-work{
-        margin-top: 5rem;
+        margin-top: 7rem;
         padding: 1rem .5rem;
         width: 17rem;
         text-align: center;
@@ -216,26 +214,32 @@
     #home .element{
         float: left;
         position: absolute;
-        margin-top: 33rem; 
+        margin-top: 35rem; 
         font-size: 2.5rem;
         display: grid;
         grid-template-columns: 2fr 2fr;
-        grid-gap: 3.5rem;
+        grid-gap: 2.5rem;
         justify-content: center;
         text-align: center;
-        margin-left: 2rem;
+       margin-left: 0%;
         
        
     }
-    .element .e1, .e2, .e3, .e4{
-       position: relative;
-       margin-left: 0%;
+    .element  p{
+        width: 15rem;
+        
     }
-    
-    
-    .element p{
-        margin-left: 0%;
-        align-items: center;
+    .element  .e1 p{
+        margin-left: 2rem;
+    }
+    .element  .e2 p{
+        margin-left: 5rem;
+    }
+    .element  .e3 p{
+        margin-left: 5rem;
+    }
+    .element  .e4 p{
+        margin-left: 5rem;
     }
     .mobile-menu span{
         margin-top: 2.5rem;
