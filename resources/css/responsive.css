@@ -151,6 +151,11 @@
   #home .element .e3{
     margin-left: -3rem;
   }
+  .mobile-menu span{
+    margin-top: 2.5rem;
+    
+}
+
 }
 
 @media only screen and (max-width:480px){
@@ -180,11 +185,11 @@
         display: none;
     }
     #home .hero-test-box{
-        
+       width: 70%;
         top:15rem;
         left: 6rem;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
           
     }
     #home h1{
@@ -220,8 +225,7 @@
         grid-gap: 3.5rem;
         justify-content: center;
         text-align: center;
-        margin-right: 4rem;
-        margin-left: 0%;
+        margin-left: 2rem;
         
        
     }
@@ -229,9 +233,7 @@
        position: relative;
        margin-left: 0%;
     }
-    .element .e3 i{
-        margin-left:2rem;
-    }
+    
     
     .element p{
         margin-left: 0%;
