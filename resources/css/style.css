@@ -322,7 +322,7 @@ ul li{
     -webkit-text-fill-color: transparent;
 }
 #home .hero-test-box .btn-work{
-    background: #2b9ecc;
+    background:linear-gradient(rgb(48, 210, 221),rgb(62, 183, 253));
     color: #fff;
     padding: .5rem 1rem;
     font-size: 2rem;

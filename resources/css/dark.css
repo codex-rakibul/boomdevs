@@ -330,8 +330,8 @@ ul li{
     -webkit-text-fill-color: transparent;
 }
 #home .hero-test-box .btn-work{
-    background:linear-gradient(rgb(160, 157, 157),#fff);
-    color: rgb(7, 72, 75);
+    background:linear-gradient(rgb(59, 3, 3),rgb(155, 63, 63));
+    color: #fff;
     font-weight: bolder;
     padding: .5rem 1rem;
     font-size: 2rem;
