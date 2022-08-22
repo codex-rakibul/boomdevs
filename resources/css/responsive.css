@@ -142,12 +142,10 @@
   }
   #home .element{
     margin-top: 40rem;
-    padding-right:100px;
+   
    
   }
-  #home .element .e3{
-    margin-left: -3rem;
-  }
+  
   .mobile-menu span{
     margin-top: 2.5rem;
     
@@ -182,16 +180,15 @@
         display: none;
     }
     #home .hero-test-box{
-       width: 70%;
+       width: 60%;
         top:15rem;
         left: 6rem;
-        display: grid;
-        grid-template-columns: 2fr;
+
           
     }
     #home h1{
         text-align: justify;
-        width: 35.5rem;
+        
         font-size: 2rem;
         color: rgb(59, 58, 58);
         
@@ -214,32 +211,35 @@
     #home .element{
         float: left;
         position: absolute;
-        margin-top: 35rem; 
+        margin-top: 40rem; 
         font-size: 2.5rem;
         display: grid;
         grid-template-columns: 2fr 2fr;
         grid-gap: 2.5rem;
         justify-content: center;
         text-align: center;
-       margin-left: 0%;
+        margin-left:2.2rem;
         
        
     }
     .element  p{
-        width: 15rem;
+        width: 10rem;
         
     }
+    .element .e3{
+        margin-left: -3rem;
+    }
     .element  .e1 p{
-        margin-left: 2rem;
+        margin-left: 3.5rem;
     }
     .element  .e2 p{
         margin-left: 5rem;
     }
     .element  .e3 p{
-        margin-left: 5rem;
+        margin-left: 7rem;
     }
     .element  .e4 p{
-        margin-left: 5rem;
+        margin-left:5rem;
     }
     .mobile-menu span{
         margin-top: 2.5rem;
